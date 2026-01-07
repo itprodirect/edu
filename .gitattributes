@@ -1,0 +1,9 @@
+# Default: keep LF in repo
+* text=auto eol=lf
+
+# Notebooks are text/JSON; keep LF to avoid churn
+*.ipynb text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.ps1 text eol=crlf
